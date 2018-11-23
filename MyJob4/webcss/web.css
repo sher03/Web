@@ -1,0 +1,303 @@
+body{
+	 font-family: "Lato", sans-serif;
+	 padding:0;
+	 margin:0;
+	 color:#777;
+}
+
+.menu{
+	width:100%;
+	max-width:100%;
+	margin:0 auto;
+	position:fixed;
+}
+nav{
+	height:60px;
+
+}
+
+nav ul{
+	list-style-type:none;
+	padding:0;
+}
+nav li {
+	padding-bottom:35px;
+	padding-left:10px;
+	padding-right:10px;
+}
+nav a{
+	text-decoration:none;
+	text-align:center;
+	color:black;
+	display:block;
+	padding:10px;
+	font-size:16px;
+	letter-spacing:5px;
+	text-transform:uppercase;
+}
+nav a:hover{
+	background-color:#555;
+}
+@media screen and (min-width:500px){
+	nav ul{
+		display: flex;
+	}
+	nav li{
+		flex:1 1 0;
+	}
+	nav {
+		display:flex;
+		justify-content:flex-start;
+	}
+}
+
+.Htext{
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:100%;
+	transform:translate(-50%,-50%);
+	font-size:40px;
+	color:white;
+	background:#333;
+	text-align:center;
+	width: 400px;
+	
+}
+
+.sidebar{
+	width:1000px;
+	margin:0 auto;
+	padding-top:60px;
+}
+.about{
+	text-align:center;
+}
+#pAbout   {
+	text-align:center;
+}
+.sidebar p{
+	line-height:25px;
+}
+.SidMyName{
+	display:flex;
+
+}
+#myName{
+	height:300px;
+
+}
+#myName:hover{
+	background:#333;
+}
+.MyName h2{
+	text-align:center;
+}
+.MyName{
+	flex:1;
+	padding-left:20px;
+}
+.MyText {
+	width:490px;
+}
+.MyText p{
+	line-height:30px;
+
+}
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+.content{
+	width:1000px;
+	min-width: 400px;
+	margin:0 auto;
+	margin-top:40px;
+}
+ .about{
+	font-size:20px;
+}
+.content p{
+	letter-spacing:5px;	
+}
+.photo{
+	width:100%;
+	background: #d6d6c2;
+
+}
+.skils{
+	text-align:right;
+	padding:6px;
+	color:white;
+}
+.photo_1{
+	width:90%;
+	background:#808080;
+}
+.web_1{
+	width:85%;
+	background: #808080;
+}
+.shop{
+	width:75%;
+	background:#808080;
+}
+.content_line{
+	margin-top:60px;
+}
+@media screen and (min-width:400px){
+.Clienty{
+	display: flex;
+	background: #808080;
+	height:100px;
+	color:white;
+	text-align: center;
+	padding:0;
+	margin:0;
+}
+.line{
+	list-style-type:none;
+	flex:1 1 0 ;
+	padding-top:25px;
+}
+}
+
+.photo_2 {
+	width:100%;
+	height:400px;
+	overflow:hidden;
+	position:relative;
+	
+}
+ .photo_2 img{ 
+	min-height:300px;
+	min-width:100%;
+	vertical-align: middle;
+}
+.photo_text{
+	position:absolute;
+	color:white;
+	bottom:40%;
+	margin:0 auto;
+	text-transform:uppercase;
+	letter-spacing:6px;
+	font-size:25px;
+	text-align:center;
+	width:100%;
+}
+.MyWork{
+	text-align:center;
+	line-height:28px;
+	padding-top:80px;
+}
+.picture_one img{
+	width:250px;
+	height:200px;
+	padding:10px;
+}
+
+@media screen and(min-width:400px){
+.picture_one{
+	width:1000px;
+	margin:0 auto;
+}
+}
+.work_Lode{
+	margin:20px;
+}
+.work_Lode a{
+	text-decoration:none;
+	text-transform:uppercase;
+	background-color:#f2f2f2;
+	color:black;
+	padding:10px;
+	
+}
+.work_Lode a:hover{
+	background:#777;
+}
+.contact {
+	width:100%;
+	height:400px;
+	overflow:hidden;
+	position:relative;
+	
+}
+.contact img{ 
+	min-height:300px;
+	min-width:100%;
+	vertical-align: middle;
+}
+.contact_text{
+	position:absolute;
+	color:white;
+	bottom:40%;
+	margin:0 auto;
+	text-transform:uppercase;
+	letter-spacing:6px;
+	font-size:25px;
+	text-align:center;
+	width:100%;
+}
+
+.footer{
+	text-align:center;
+	margin-top:60px;
+}
+.footer_img img{
+	width:200px;
+	height: 150px;
+}
+.footer_text{
+	padding-left:30px;
+
+}
+.footer_1{
+	display:flex;
+	justify-content:center;
+}
+.form{
+	display:flex;
+	padding-top:20px;
+
+}
+input{
+	width:200px;
+	padding:8px;
+	margin:5px;		
+}
+.input_Messeng input{
+	width: 430px;
+}
+.footer_text button{
+	
+	margin-top:20px;
+}
+button{
+	text-transform:uppercase;
+	padding:10px;	
+	text-align:right;
+	background-color:black;
+	color:white;
+	margin-bottom:100px;
+}
+button:hover{
+	background:#777;
+}
+.footer_buttom{
+	height:300px;
+	background: #666;
+	text-align:center;
+}
+.footer_buttom:hover{
+	background:black;
+}
+.footer_a{
+	padding-top:100px;
+}
+.footer_a a{
+	padding:15px;
+	background:#fff;
+	text-decoration:none;
+	color:#777;
+}
